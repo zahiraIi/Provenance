@@ -1,1 +1,3 @@
 # Provenance
+
+Connects to Tableau via MCP, pulls workbooks straight from the server, and reverse-engineers what's actually driving every dashboard: parses the XML to extract calculated fields, embedded SQL, and datasource joins, then traces each metric back through its full lineage to the physical source. Where multiple workbooks compute the "same" KPI differently, Provenance surfaces the conflict and scores candidate sources of record by usage, certification, and live-metadata verification — flagging executive and regulatory dashboards first. Findings resolve into shareable reports and sync into WorkBoard so the source-of-truth call, once made, sticks.
